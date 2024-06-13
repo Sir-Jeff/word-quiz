@@ -2,6 +2,7 @@ name = input("What is your name? ")
 game = input("Do you want to play this treasure seeking game? (Yes/No): ").lower()
 if game == "yes":
     print(f"Welcome to the Treasure Island {name} and goodluck in trying to find the treasure..")
+    
 else:
     quit()    
 
@@ -54,7 +55,9 @@ elif answer == "right":
         print("Yuo've been caught by the guard and charged for theft. You lose!!")
         
     else:
-        print(f"Thats an invalid input {name}. YOu lose!!!")    
+        print(f"Thats an invalid input {name}. YOu lose!!!")   
+     
 else:
-    print(f"Thats an invalid move {name} you lose!!")    
+    print(f"Thats an invalid move {name} you lose!!")  
+         
 

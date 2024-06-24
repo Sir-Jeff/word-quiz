@@ -8,7 +8,7 @@ def get_grade(score):
     elif score >= 60 and score < 70:
         return 'D'
     elif score >= 0 and score < 60:
-        return 'F'
+        return 'E'
     else:
         return 'Invalid score'
 
